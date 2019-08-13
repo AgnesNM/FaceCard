@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Document</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <script src="js/scripts.js"></script>
+	<!-- your HTML goes here -->
+	<div data-cart-info="0">
+		<header class="mdc-typography--headline4">
+			<span class="material-icons">shopping_cart</span> <span data-bill="0"></span>
+		</header>
+	</div>
+	<div class="mdc-card mdc-card--outlined" data-credit-card="0">
+		<div class="mdc-card__primary-action">
+			<img data-card-type="0" src="https://placehold.it/120x60.png?text=Card.">
+			<div data-cc-digits="0">
+				<input placeholder="----" size="4" type="text"> <input placeholder="----" size="4" type="text"> <input placeholder="----" size="4" type="text"> <input placeholder="----" size="4" type="text">
+			</div>
+			<div data-cc-info="0">
+				<input placeholder="Name Surname" size="20" type="text"> <input class="input-two" placeholder="MM/YY" size="6" type="text">
+			</div>
+		</div>
+	</div><button class="mdc-button" data-pay-btn="0">Pay Now</button> 
+	<script src="js/scripts.js">
+	</script>
 </body>
 </html>
